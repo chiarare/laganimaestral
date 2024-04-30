@@ -1,0 +1,74 @@
+body {
+    background-color: #F2E5D5;
+    color: #73563D
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: #73563D;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #93A64E;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #2C4001;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.frontpage img {
+    opacity: 0.5
+}
+
+.appartments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.appartments img {
+    max-width: 40%;
+    height: auto;
+    padding: 2em;
+    object-fit: contain;
+}
+
+.appartments img:hover {
+    opacity: 0.7;
+}
